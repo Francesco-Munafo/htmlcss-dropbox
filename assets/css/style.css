@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* #region Utilities */
 
 :root{
     --db-bluebutton: rgba(0, 97, 255, 1);
+    --db-bluebuttonhover: rgb(0, 67, 175);
     --db-mainlight: rgba(255, 255, 255, 1);
     --db-jumbobackground: rgba(180, 208, 231, 1);
     --db-sponsormint: rgba(162, 211, 155, 1);
@@ -20,7 +25,66 @@
     --db-fontlight: rgba(255, 250, 236, 1);
     --db-footerblack: rgba(0, 0, 0, 1);
 }
+/* #region Flex */
 
+.d-flex{
+    display: flex;
+}
 
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/* #endregion Flex */
+
+.list-inline{
+    display: inline-block;
+    list-style: none;
+}
+
+header .list-inline>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.mr-1{
+    margin-right: 1rem;
+}
 /* #endregion Utilities */
 
+/* #region Debug */
+.header>.container .debug{
+    background-color: green;
+}
+/* #region Debug */
+
+
+/* #region Header */
+.bluebutton{
+    background-color: var(--db-bluebutton);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.bluebutton:hover{
+    background-color: var(--db-bluebuttonhover);
+    text-decoration: underline;
+}
+
+/* #endregion Header */
