@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region Utilities */
+
+:root{
+    --db-bluebutton: rgba(0, 97, 255, 1);
+    --db-mainlight: rgba(255, 255, 255, 1);
+    --db-jumbobackground: rgba(180, 208, 231, 1);
+    --db-sponsormint: rgba(162, 211, 155, 1);
+    --db-sponsormintborder: rgba(209, 233, 205, 1);
+    --db-colorwine: rgba(97, 8, 43, 1);
+    --db-sponsorlightblue:  rgba(0, 147, 206, 1);
+    --db-sponsorred: rgba(255, 28, 28, 1);
+    --db-sponsordarkblue: rgba(13, 36, 129, 1);
+    --db-sponsoryellow: rgba(255, 216, 48, 1);
+    --db-fontlight: rgba(255, 250, 236, 1);
+    --db-footerblack: rgba(0, 0, 0, 1);
+}
+
+
+/* #endregion Utilities */
+
