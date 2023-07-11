@@ -105,6 +105,9 @@ header .list-inline>a{
     width: calc(100% / 12 * 8 );
 }
 
+.col-12{
+    width: 100%
+}
 .gap2{
     gap: 1rem;
 }
@@ -198,7 +201,19 @@ img{
 
 .cardtitle, .carddescription{
     border: 1px solid lightgray;
-    padding: 0.5rem 0.5rem;    
+    padding: 0.5rem 0.5rem;   
+}
+
+.carddescription{
+    padding: 1.5rem 1.5rem;
+}
+
+.cardtitle i{
+    padding-right: 0.5rem;
+}
+
+.carddescription{
+    height: 100%;
 }
 
 .price{
@@ -216,6 +231,11 @@ img{
 .carddescription ul{
     margin-top: 2rem;
 }
+
+.buynow{
+    border-bottom: solid 1px #b8b8b8;
+    padding-bottom: 2rem;
+}
 .features i{
     padding-right: 0.5rem;
 }
@@ -231,15 +251,51 @@ img{
 
 .highlights h4{
     margin: 2rem 0;
+    padding-top: 2.5rem ;
 }
 .highlights i{
     color: var(--db-bluebutton);
     margin-right: 0.5rem;
-    font-size: ;
 }
 
 .highdescr{
     padding: 1rem 0;
 }
+
+.plans .col-4{
+    height: 950px;
+}
+
+.enterprisecardtitle{
+    width: 100%;
+    border: 1px solid #b8b8b8;
+    line-height: 2rem;
+}
+
+.enterprisecardtitle i{
+    padding-right: 0.5rem;
+}
+
+.enterprisecardcontact{
+    padding: 1.5rem 1.5rem;
+    border: 1px solid #b8b8b8;
+    border-top: none;
+    border-bottom: none;
+}
+
+.enterprisecarddescription{
+    padding: 1.5rem 1.5rem;
+    border: 1px solid #b8b8b8;
+    border-top: none;   
+}
+
+.enterprisecarddescription>h4{
+    padding-bottom: 3rem;
+}
+
+.enterprisecarddescription p{
+    width: 75%;
+}
+
 
 /* #endregion Main */
