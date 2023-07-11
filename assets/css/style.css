@@ -140,9 +140,20 @@ header .list-inline>a{
     width: 100%;
 }
 
-.col-3 button{
+.trial{
     margin: 1.5rem 0;
-    width: ;
+    width: 200px;   
 }
 
+.cancel{
+    text-decoration: none;
+}
+
+.cancel:hover{
+    text-decoration: underline;
+}
+
+.fa-arrow-down{
+    margin-top: 5rem;
+}
 /* #endregion Main */
