@@ -213,6 +213,9 @@ img{
     margin-top: 0.25rem;
 }
 
+.carddescription ul{
+    margin-top: 2rem;
+}
 .features i{
     padding-right: 0.5rem;
 }
@@ -220,6 +223,23 @@ img{
 .features li{
     list-style: none;
     padding: 0.5rem 0;
+}
+
+.carddescription button{
+    margin: 2rem 0;
+}
+
+.highlights h4{
+    margin: 2rem 0;
+}
+.highlights i{
+    color: var(--db-bluebutton);
+    margin-right: 0.5rem;
+    font-size: ;
+}
+
+.highdescr{
+    padding: 1rem 0;
 }
 
 /* #endregion Main */
