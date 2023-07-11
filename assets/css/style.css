@@ -198,10 +198,28 @@ img{
 
 .cardtitle, .carddescription{
     border: 1px solid lightgray;
-    padding: 0.5rem 0.5rem;
-    display: inline;
-    
+    padding: 0.5rem 0.5rem;    
 }
 
+.price{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.time{
+    color: gray;
+    font-size: 12px;
+    margin-top: 0.25rem;
+}
+
+.features i{
+    padding-right: 0.5rem;
+}
+
+.features li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
 
 /* #endregion Main */
