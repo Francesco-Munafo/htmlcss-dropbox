@@ -424,9 +424,13 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-    
+    padding: 1rem; 
 }
+
+.bring > h2{
+    color: var(--db-colorwine);
+}
+
 
 .square-sm img{
     filter: invert(1);
@@ -482,7 +486,7 @@ img{
 }
 
 .square-sm:hover{
-    box-shadow: inset 1px 1px 5px black;
+    box-shadow: inset 2px 2px 20px rgb(0, 0, 0);
 }
 
 .container_bg.d-flex.sixth{
